@@ -1,0 +1,211 @@
+/*BEM*/
+.wrapper {
+    overflow: hidden;
+
+}
+
+.G_container {
+    max-width: 1160px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+
+.section {
+    padding: 80px 0;
+}
+
+.column_list {
+    margin: 40px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+    justify-items: center;
+}
+
+.column_item {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    gap: 14px;
+}
+
+.column_button {
+    box-sizing: border-box;
+    border: 1px solid rgb(243, 8, 58);
+    box-shadow: 0px 8px 16px 0px rgba(243, 8, 58, 0.08), 0px 0px 4px 0px rgba(243, 8, 58, 0.04);
+    padding: 5px;
+    color: rgb(28, 32, 64);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+    min-height: 56px;
+    transition: .3s;
+}
+
+.column_button:hover {
+    background-color: rgb(243, 8, 58);
+    color: white;
+
+}
+
+.column_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(231, 232, 227);
+    box-shadow: 0px 8px 16px 0px rgba(63, 87, 255, 0.08), 0px 0px 4px 0px rgba(63, 87, 255, 0.04);
+    background: rgb(255, 255, 255);
+    padding: 12px 5px;
+    height: 100%;
+}
+
+.column_name {
+    position: relative;
+    color: rgb(28, 32, 64);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.column_name::after {
+    content: '';
+    width: 100px;
+    margin: 10px 0 0 0;
+    height: 2px;
+    background: rgb(63, 87, 255);
+}
+
+.column_text {
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center
+}
+.section_title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.section_title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 10px;
+    box-sizing: border-box;
+    background-color: rgb(252, 161, 180);
+    z-index: -1;
+}
+
+.home_title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 10px;
+    box-sizing: border-box;
+    background-color: rgb(252, 161, 180);
+    z-index: -1;
+}
+
+
+.content_video {
+    flex: 0 1 48%;
+    padding: 0 0 32% 0;
+    position: relative;
+}
+
+.content_video iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.btn_white {
+    margin-top: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(243, 8, 58);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: rgb(243, 8, 58);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    min-height: 56px;
+    box-shadow: 0px 8px 16px 0px rgba(243, 8, 58, 0.08), 0px 0px 4px 0px rgba(243, 8, 58, 0.04);
+    transition: .3s;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.btn_white:hover {
+    /*background-color: rgb(243, 8, 58);*/
+    /*color: white;*/
+    opacity: .6;
+
+}
+
+.btn_red {
+    margin-top: 40px;
+    cursor: pointer;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(243, 8, 58, 0.08), 0px 0px 4px 0px rgba(243, 8, 58, 0.04);
+    background: rgb(243, 8, 58);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    min-height: 56px;
+    transition: .3s;
+    border: 1px solid transparent;
+
+}
+
+.btn_red:hover {
+    /*background: transparent;*/
+    /*color: rgb(243, 8, 58);*/
+    /*border: 1px solid rgb(243, 8, 58);*/
+    opacity: .6;
+
+}
+.change_color_blue {
+    color: #3F57FF;
+}
+/*BEM*/

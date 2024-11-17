@@ -1,0 +1,694 @@
+@media (max-width: 1215px) {
+
+    .header_top_services {
+        gap: 10px;
+    }
+
+    .footer_menu ul {
+        column-gap: 100px;
+    }
+
+    .section {
+        padding: 80px 0;
+    }
+
+    .home_title {
+        font-size: 54px;
+        line-height: 77px;
+    }
+
+    .home_sub_title {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .home_content {
+        gap: 30px;
+        margin-top: 80px;
+    }
+
+    .home_description_title {
+        font-size: 26px;
+        line-height: 39px;
+    }
+}
+
+@media (max-width: 1025px ) {
+    .header_services_item_text {
+        display: none;
+    }
+
+    .product_info_body {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .plan_card_absolute {
+        max-width: 300px;
+
+    }
+
+    .product_info_slider, .product_description {
+        max-width: 100%;
+    }
+
+    .header_top_services {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .catalog-item_details {
+        flex-direction: column;
+    }
+
+    .product_name {
+
+        font-size: 25px;
+
+    }
+
+    .catalog-calculate {
+        align-items: flex-start;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .benefit, .price-installments {
+        text-align: left;
+    }
+
+    .catalog-info_description {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+    }
+
+    .catalog-list {
+        gap: 20px;
+    }
+
+    .catalog-filter ul {
+        column-gap: 20px;
+        row-gap: 10px;
+        margin-top: 20px;
+    }
+
+    .catalog-info_description::after {
+        display: none;
+    }
+
+    /*.catalog-info_description img{*/
+    /*     display: none;*/
+    /*}*/
+}
+
+@media (max-width: 991px) {
+    .header_menu_list {
+        gap: 20px;
+    }
+
+    .plan_card_absolute {
+        display: none;
+    }
+
+    .cooperation_body {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cooperation_media {
+        max-width: 100%;
+
+    }
+
+    .cooperation_sub_title {
+        font-size: 18px;
+    }
+
+    .leave_request, .cooperation_btn {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .cooperation_des_list {
+        margin-top: 10px;
+    }
+
+    .cooperation_description {
+        max-width: 100%;
+
+    }
+
+    .cooperation_images {
+        justify-content: center;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section_title {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 44px;
+    }
+
+    .section_title::before {
+        bottom: 0;
+    }
+
+    .home_title {
+        font-size: 44px;
+        line-height: 67px;
+    }
+
+    .home_sub_title {
+        font-size: 22px;
+        margin-top: 10px;
+        line-height: normal;
+    }
+
+    .home_content {
+        gap: 20px;
+        margin-top: 60px;
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    .home_content_video {
+        padding: 0 0 42% 0;
+    }
+
+    .home_description_list {
+        margin-top: 20px;
+    }
+
+    .suggestions_content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .suggestions_info {
+        max-width: 100%;
+    }
+
+    .suggestions_media {
+        max-width: 100%;
+
+    }
+
+    .pay_method_banks {
+        gap: 10px;
+    }
+
+    .suggestions_media img {
+        display: none;
+    }
+
+    .footer_menu ul {
+        column-gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .suggestions_info_item:not(:last-child) {
+        margin: 0 0 10px 0;
+    }
+
+    .kitchen_cost_content {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .pagination_reviews {
+        margin-top: 2px;
+    }
+
+    .make-kitchens_content {
+        padding: 20px 50px;
+        flex-direction: column;
+
+
+    }
+
+    .production-section {
+        padding: 40px 0;
+    }
+
+    .production-body {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .production-media, .production-text {
+        max-width: 100%;
+    }
+
+    .kitchens-content_text {
+        max-width: 100%;
+    }
+
+    .kitchen_cost_media img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .vacancies_post {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .vacancies_post_media {
+        max-width: 100%;
+    }
+
+    .vacancies_post_info {
+        max-width: 100%;
+
+    }
+
+    .vacancies_post_info > :not(:last-child) {
+        margin: 0 0 10px 0;
+    }
+
+    .vacancies_main > :not(:last-child) {
+        margin: 0 0 6px 0;
+    }
+
+    .post_description > :not(:last-child) {
+        margin: 0 0 4px 0;
+    }
+
+    .post_description {
+        margin-top: 6px;
+    }
+
+    .vacancies_post_section {
+        padding: 60px 0 120px;
+    }
+
+    .why-you_body {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .why-you_media, .you-should_description {
+        max-width: 100%;
+    }
+
+    .our-services-text {
+        max-width: 100%;
+
+    }
+    .counting-description>:not(:last-child){
+        margin: 0 0 20px 0 ;
+    }
+    .counting-body {
+        flex-direction: column;
+    }
+    .counting-media{
+        max-width: 100%;
+
+    }
+    .counting-media img{
+        width: 100%;
+
+    }
+    .counting-description{
+        max-width: 100%;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .section {
+        padding: 40px 0;
+    }
+
+    .you-should_des_list > :not(:last-child) {
+        margin: 0 0 7px 0;
+    }
+
+    .you-should_buttons {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .you-should_btn {
+        margin-top: 0;
+
+    }
+
+    .cooperation_map_title {
+
+        margin-top: 20px;
+        font-size: 19px;
+
+    }
+
+    .make-kitchens_item {
+        max-width: 170px;
+
+    }
+
+    .product_name {
+        line-height: normal;
+
+    }
+
+    .product_description_block {
+        padding: 10px 0 0;
+    }
+
+    .product_info_btn {
+        margin-top: 20px;
+    }
+
+    .advantages_item {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .post_title {
+        font-size: 20px;
+    }
+
+    .compare_good_bad_sides {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .partners_list {
+        gap: 20px;
+
+    }
+
+    .vacancies_post_section {
+        padding: 40px 0 80px;
+    }
+
+    .make-kitchens_content {
+        padding: 10px 30px;
+        flex-direction: column;
+
+
+    }
+
+    .catalog-list {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .compare_bad_side_item:not(:last-child) {
+        margin: 0 0 5px 0;
+    }
+
+    .catalog-item {
+        flex: 0 1 100%;
+    }
+
+    .vacancies_title {
+        margin-bottom: 20px;
+    }
+
+    .partners_item {
+        max-width: 200px;
+    }
+
+    .kitchen-img {
+        width: 100%;
+    }
+
+    .reviews_list {
+        margin-top: 20px;
+    }
+
+    .swiper_reviews_link {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .swiper_reviews_text_img {
+        max-height: 100%;
+    }
+
+    .kitchen-img img {
+        width: 100%;
+    }
+
+    .compare_bad_side_item, .compare_good_side_item {
+        padding: 5px 5px;
+    }
+
+    .contact_information_form {
+
+        flex-wrap: wrap;
+    }
+
+    .kitchen_layout_list {
+        gap: 10px;
+
+    }
+
+    .item_installment_plan {
+        padding: 20px 0 0;
+        flex: 0 1 100%;
+    }
+
+    .compare_minus_text, .compare_plus_text {
+        font-size: 16px;
+    }
+
+    .choose_kitchen_layout > *:not(:last-child) {
+        margin: 0 0 20px 0;
+    }
+
+    .length_kitchen_choose > *:not(:last-child) {
+        margin: 0 0 10px 0;
+    }
+
+    .kitchen_layout_file > *:not(:last-child) {
+        margin: 0 0 10px 0;
+    }
+
+    .contact_information > *:not(:last-child) {
+        margin: 0 0 10px 0;
+    }
+
+    .layout_title {
+        font-size: 15px;
+
+    }
+
+    .length_kitchen_choose_label {
+        padding: 7px 10px;
+
+    }
+
+    .layout_file_label {
+        padding: 7px 10px;
+
+    }
+
+    .contact_form_label {
+        padding: 7px 10px;
+
+    }
+
+    .section_title {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 44px;
+    }
+
+    .production_list {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .home_title {
+        font-size: 34px;
+        line-height: 57px;
+    }
+
+    .home_description_item {
+        gap: 10px;
+    }
+
+    .home_content {
+        margin-top: 40px;
+    }
+
+    .header_top_services {
+        display: none;
+    }
+
+    .header_order_call_block {
+        display: none;
+    }
+
+    .header_top_body {
+        gap: 0;
+    }
+
+    .header_bottom {
+        display: none;
+    }
+
+    .footer_bottom_menu {
+        order: 3;
+    }
+
+    .header_top {
+        background: #F6F8FF;
+        min-height: 80px;
+        padding: 10px 0;
+
+    }
+
+    .home_content_video {
+        padding: 0 0 52% 0;
+    }
+
+    .home_description_title {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .header_mobile_menu {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background: #F6F8FF;
+        left: -100%;
+        margin-top: 80px;
+        transition: .3s;
+        overflow: auto;
+        padding: 15px 15px 100px;
+        z-index: 10;
+    }
+
+    .catalog_content_video {
+        flex: 0 100%;
+        padding: 0 0 52% 0;
+        position: relative;
+    }
+
+    .header_mobile_menu.active {
+        left: 0;
+    }
+
+    .header_menu ul li a {
+        color: rgb(28, 32, 64);
+
+
+    }
+
+    .pagination {
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .pagination_list {
+        gap: 5px;
+
+    }
+
+    .header_menu ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .column_list {
+        margin: 20px 0 0 0;
+        gap: 20px;
+    }
+
+    .header_menu {
+        border-bottom: 1px solid rgba(220, 220, 220, 0.8);
+    }
+
+    .header_menu_list {
+        flex-direction: column;
+    }
+
+    .header_mobile_services {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .header_order_call_mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+        align-items: flex-start;
+    }
+
+    .countertops-videos {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+}
+
+@media (max-width: 567px) {
+    .section {
+        padding: 20px 0;
+    }
+
+    .make-kitchens_content {
+        padding: 5px;
+
+
+    }
+
+    .plan_card {
+        flex-wrap: wrap;
+    }
+
+    .card_info_margin {
+        margin-top: 10px;
+        max-width: 100%;
+    }
+
+    .plan_card_info {
+        max-width: 100%;
+        margin-top: 10px;
+
+    }
+
+    .plan_card_img {
+        width: 100%;
+    }
+
+    .home_title {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .production_list {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .home_sub_title {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .home_content {
+        margin-top: 20px;
+    }
+
+    .partners_item {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 375px) {
+    .promotions_list {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+}

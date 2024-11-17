@@ -1,0 +1,42 @@
+
+.counting-body {
+    display: flex;
+    gap: 40px;
+}
+.counting-media{
+     max-width: 560px;
+    width: 100%;
+}
+.counting-description{
+    max-width: 560px;
+    width: 100%;
+}
+
+.counting-description>:not(:last-child){
+    margin: 0 0 40px 0 ;
+}
+.counting-header>:not(:last-child){
+ margin: 0 0 12px 0 ;
+}
+.counting-title{
+    color: rgb(28, 32, 64);
+    max-width: 400px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+}
+.counting-sub_title p{
+    font-size: 16px;
+    color: #777777;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    text-transform: lowercase;
+}
+.counting-sub_title>:not(:last-child){
+    margin: 0 0 20px 0 ;
+}
+.counting-btn{
+     margin-top: 0;
+}

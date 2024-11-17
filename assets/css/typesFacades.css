@@ -1,0 +1,17 @@
+
+
+.facades-title{
+  max-width: 470px;
+}
+.facades-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+.facades-name::after{
+     width: 100px;
+    position: initial;
+    margin: 10px 0 0 0 ;
+}

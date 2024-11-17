@@ -1,0 +1,125 @@
+.cooperation_title {
+    max-width: 270px;
+}
+
+.map_section {
+    background: rgb(246, 248, 255);
+}
+
+.cooperation_title_bottom {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    color: #777777;
+    margin-top: 20px;
+}
+
+.cooperation_map_title {
+    color: rgb(28, 32, 64);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.map_media {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.franchise_title {
+    max-width: 400px;
+}
+
+.franchise_title::before {
+    bottom: 55px;
+}
+
+.franchise_column_info {
+    padding: 12px 3px;
+    height: initial;
+}
+
+.franchise_list {
+    margin: 0;
+}
+
+.franchise_buttons {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cooperation_media {
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cooperation_body {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.cooperation_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cooperation_btn,.leave_request{
+     max-width: 360px;
+}
+
+
+.cooperation_sub_title {
+    color: rgb(28, 32, 64);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    max-width: 360px;
+}
+
+.cooperation_description {
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cooperation_des_list {
+    margin-top: 20px;
+    flex: 1 1 auto;
+}
+
+.cooperation_des_list li {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #777777;
+
+}
+
+.cooperation_des_list li::before {
+    content: '•';
+    color: rgb(63, 87, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding: 0 6px 0 0;
+
+}
+
+.cooperation_des_list > :not(:last-child) {
+    margin: 0 0 8px 0;
+}
+

@@ -1,0 +1,10 @@
+
+.promotions_list{
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+.promotions_title{
+     max-width: 570px;
+}
+.promotions_item{
+      max-width: 560px;
+}

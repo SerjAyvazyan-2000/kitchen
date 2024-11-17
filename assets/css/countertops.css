@@ -1,0 +1,24 @@
+
+.countertops-section {
+    background: rgb(246, 248, 255);
+}
+.countertops-title{
+     max-width: 511px;
+}
+.countertops-title::before {
+    bottom: 50px;
+}
+
+.countertops-videos {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    margin: 0;
+}
+.countertops-video{
+     z-index: 1;
+    padding: 0 0 60% 0;
+
+}
+
+.countertops-item {
+    max-width: 560px;
+}

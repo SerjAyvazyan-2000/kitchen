@@ -1,0 +1,112 @@
+
+.compare_title {
+    max-width: 588px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+
+}
+
+.compare_title::before {
+    top: 70px;
+    background: rgb(243, 8, 58);
+}
+
+.compare_good_bad_sides {
+    margin-top: 2px;
+    display: flex;
+    gap: 41px;
+    justify-content: space-between;
+    border-radius: 0px 0px 6px 0px;
+    box-shadow: inset 0px -1px 0px 0px rgb(228, 228, 239);
+    background: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.compare_bad_sides, .compare_good_sides {
+    max-width: 568px;
+    transition: .3s;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.compare_bad_side_item:not(:last-child) {
+    margin: 0 0 13px 0;
+}
+
+.compare_good_side_item:not(:last-child) {
+    margin: 0 0 13px 0;
+}
+
+.compare_good_side_item, .compare_bad_side_item {
+    transition: .3s;
+    border-radius: 6px 0px 0px 6px;
+
+}
+
+.compare_good_side_item:hover {
+    cursor: pointer;
+    box-shadow: inset 0px -1px 0px 0px rgb(228, 228, 239);
+    background: rgb(63, 87, 255);
+}
+
+.compare_good_side_item:hover .compare_plus_text {
+    color: white;
+}
+
+.compare_good_side_item:hover .compare_plus {
+    background-color: white;
+    color: rgb(63, 87, 255);
+}
+
+.compare_bad_side_item, .compare_good_side_item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+
+.compare_bad_side_item:hover {
+    cursor: pointer;
+    box-shadow: inset 0px -1px 0px 0px rgb(228, 228, 239);
+    background: rgb(63, 87, 255);
+}
+
+.compare_bad_side_item:hover .compare_minus_text {
+    color: white;
+}
+
+
+.compare_minus, .compare_plus {
+    flex: 0 0 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.compare_minus_text, .compare_plus_text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+}
+
+.compare_minus {
+    background: rgb(243, 8, 58);
+}
+
+.bad_side_change_color {
+    color: rgb(243, 8, 58);
+    font-weight: 700;
+
+}
+
+.compare_plus {
+    background: rgb(63, 87, 255);
+    font-weight: 700;
+
+}

@@ -1,0 +1,44 @@
+
+
+.order_process_title {
+    max-width: 330px;
+}
+
+
+.swiper_flex {
+    display: flex;
+    gap: 40px;
+}
+.reviews_section{
+     padding-bottom: 80px;
+}
+.reviews_title{
+  max-width: 450px;
+}
+.reviews_list{
+     margin-top: 40px;
+    position: relative;
+}
+.swiper_reviews {
+    overflow: hidden;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.swiper_reviews_link{
+     gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.swiper_reviews_link img{
+     width: 100%;
+}
+.swiper_reviews_text_img{
+     max-height: 345px;
+}
+.pagination_reviews{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 12px;
+    justify-content: center;
+}

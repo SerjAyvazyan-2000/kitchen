@@ -1,0 +1,80 @@
+
+.production-main{
+    background: rgb(246, 248, 255);
+}
+
+.home_title {
+    color: rgb(28, 32, 64);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87px;
+    text-align: center;
+    position: relative;
+    max-width: 456px;
+    margin: 0 auto;
+}
+
+
+.home_sub_title {
+    color: rgb(119, 119, 119);
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+}
+
+.sub_title_change_color {
+    color: rgb(243, 8, 58);;
+}
+
+
+.home_content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.home_content_description {
+    flex: 0 1 48%;
+}
+
+.home_description_title {
+    color: rgb(28, 32, 64);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    text-align: center;
+}
+
+.home_description_list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.home_description_item {
+    color: rgb(17, 17, 17);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.description_item_change {
+    color: #3F57FF;
+}
+
+.home_description_item:before {
+    content: '';
+    flex: 0 0 6px;
+    height: 6px;
+    background: rgb(17, 17, 17);
+    border-radius: 50%;
+    margin-top: 6px;
+}

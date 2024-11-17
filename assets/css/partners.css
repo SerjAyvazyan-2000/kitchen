@@ -1,0 +1,20 @@
+
+
+.partners_body{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.partners_title {
+    max-width: 441px;
+}
+.partners_title::before{
+     bottom: 50px;
+}
+.partners_list {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

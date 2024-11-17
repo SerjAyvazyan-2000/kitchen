@@ -1,0 +1,73 @@
+
+.footer_top {
+    background: rgb(28, 32, 64);
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 15px 0 ;
+}
+
+.footer_bottom_body ,.footer_top_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_menu ul {
+    column-gap: 50px;
+    row-gap: 20px;
+    display: flex;
+}
+
+.footer ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    transition: .3s;
+
+}
+
+.footer ul li a:hover {
+    color: rgb(243, 8, 58);
+
+}
+
+.footer_bottom {
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+
+.footer_bottom_body {
+    display: flex;
+    column-gap: 30px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    padding: 15px 0 ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_bottom_menu ul {
+    display: flex;
+    column-gap: 40px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footer_bottom_menu ul li a {
+    color: rgb(63, 87, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+}
+.footer_bottom_menu ul li a:hover{
+    color: rgb(243, 8, 58);
+}
+.footer_bottom_menu ul li a.active{
+    color: rgb(243, 8, 58);
+}

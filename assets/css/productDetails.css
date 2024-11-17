@@ -1,0 +1,420 @@
+.product_info_section {
+    padding-top: 80px;
+}
+
+.product_info_slider {
+    max-width: 660px;
+    width: 100%;
+}
+
+.product_description {
+    max-width: 460px;
+    width: 100%;
+}
+
+.product_info_swiper {
+    position: relative;
+}
+
+.product_info_img img {
+    width: 100%;
+}
+
+
+.product_info_next {
+    padding: 20px;
+    background: rgb(63, 87, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -50px !important;
+}
+
+.product_info_prev {
+    padding: 20px;
+    background: rgb(63, 87, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -50px !important;
+}
+
+.product_info_next.swiper-button-disabled {
+    background: rgb(119, 119, 119);
+    opacity: 1 !important;
+}
+
+.product_info_prev.swiper-button-disabled {
+    background: rgb(119, 119, 119);
+    opacity: 1 !important;
+
+}
+
+.swiper-slide {
+    cursor: pointer;
+}
+
+.product_info_body {
+    display: flex;
+    gap: 40px;
+}
+
+.product_title_block {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.product_name {
+    color: rgb(28, 32, 64);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+}
+
+.product_discount_price {
+    color: rgb(243, 8, 58);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    text-decoration-line: line-through;
+}
+
+.product_article {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 4px;
+}
+
+.product_price_block {
+    padding: 20px 0 10px;
+
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.product_price_block > :not(:last-child) {
+    margin: 0 0 5px 0;
+}
+
+.product_price_row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price_row_finish {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.product_price_row h2 {
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.price_row_finish p {
+    color: rgb(28, 32, 64);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.price_row_finish span {
+    color: rgb(28, 32, 64);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.row_price {
+    color: rgb(243, 8, 58);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 27px;
+}
+
+.product_description_block {
+    padding: 20px 0 0;
+}
+
+.description_block_title {
+    color: rgb(17, 17, 17);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.description_block_list {
+    padding: 12px 0 0;
+
+}
+
+.description_block_list li {
+    color: rgb(17, 17, 17);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.description_block_list li::before {
+    content: '•';
+    color: rgb(63, 87, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.description_block_list > :not(:last-child) {
+    margin: 0 0 10px 0;
+}
+
+.description_block_list p {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 350px;
+    line-height: 19px;
+    text-align: left;
+}
+
+
+.make-kitchens_title {
+    max-width: 430px;
+}
+
+.make-kitchens_items {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.make-kitchens_item {
+    max-width: 226px;
+    padding: 5px;
+    min-height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(231, 232, 227);
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(119, 119, 119);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.make-kitchens_item.active {
+    color: rgb(255, 255, 255);
+    background: rgb(63, 87, 255);
+
+}
+
+.make-kitchens_item:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(63, 87, 255);
+
+}
+
+.make-kitchens_content {
+    padding: 40px 100px;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid rgb(231, 232, 227);
+    border-left: 1px solid rgb(231, 232, 227);
+    border-right: 1px solid rgb(231, 232, 227);
+    box-shadow: 0px 8px 16px 0px rgba(63, 87, 255, 0.08), 0px 0px 4px 0px rgba(63, 87, 255, 0.04);
+    background: rgb(255, 255, 255);
+
+}
+
+.kitchens-content_text {
+    max-width: 460px;
+}
+
+.kitchens-content_text h2 {
+    color: rgb(28, 32, 64);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.kitchens-content_text p {
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.kitchens-content_text > :not(:last-child) {
+    margin: 0 0 12px 0;
+}
+
+.production-section {
+    padding: 80px 0;
+    background: rgb(246, 248, 255);
+}
+
+.production-body {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.production-text {
+    max-width: 459px;
+}
+
+.production-media {
+    position: relative;
+    max-width: 560px;
+    width: 100%;
+    min-height: 355px;
+}
+
+.production-image_right {
+    position: absolute;
+
+    right: 0;
+    bottom: 0;
+}
+
+.production-btn {
+    max-width: 360px;
+}
+
+.you-should_title {
+    max-width: 740px;
+}
+
+.why-you_body {
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+}
+
+.why-you_media {
+    max-width: 560px;
+    width: 100%;
+    min-height: 355px;
+    position: relative;
+}
+
+.you-should_description {
+    max-width: 560px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.you-should_buttons {
+    display: flex;
+    gap: 40px;
+}
+.you-should_title::before{
+     bottom: 35px;
+}
+
+.why-you-image_right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.you-should_des_list{
+     flex: 1 1 auto;
+}
+.you-should_des_list li{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #111111;
+}
+.you-should_des_list li::before {
+    content: '•';
+    color: rgb(63, 87, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding: 0 6px 0 0;
+
+}
+.you-should_des_list > :not(:last-child) {
+    margin: 0 0 14px 0;
+}
+.you-should_btn{
+     max-width: 260px;
+    margin-top: 20px;
+}
+.about-us_section{
+     padding-bottom: 80px;
+}
+.about-us_list{
+    margin: 40px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    justify-items: center;
+}
+.about-us_title{
+     max-width: 680px;
+}
+.about-us-column_info{
+     height: inherit;
+}
+
+.our-services-section{
+     padding-bottom: 80px;
+}
+.services-btn-white{
+     margin-top: 20px;
+}
+.our-services-text{
+     max-width: 500px;
+}
+.services-btn-red,.services-btn-white{
+     max-width: 360px;
+}
+.our-services-text p{
+    margin-top: 12px;
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.reviews_block{
+    background: rgb(246, 248, 255);
+    padding: 80px 0 ;
+}
+.suggestions_section{
+    background: rgb(246, 248, 255);
+    margin-bottom: 80px;
+    padding-bottom: 160px;
+}
+
+
